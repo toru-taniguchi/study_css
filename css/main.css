@@ -17,6 +17,16 @@ h2 {
 	background-color: #FECE40;
 	padding-left: 4px;
 }
+h3 {
+	border-bottom: 1px solid #FECE40;
+}
+h3:before {
+	content: "";
+	width: 8px;
+	height: 24px;
+	display: inline-block;
+	background-color: #FECE40;
+}
 .main-container {
 	padding: 12px;
 }
