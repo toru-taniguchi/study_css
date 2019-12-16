@@ -40,3 +40,19 @@ h2 {
 	font-size: 20px;
 	font-weight: bold;
 }
+.people table {
+	border: 1px solid #4CBEF6;
+}
+.people thead {
+	background-color: #4CBEF6;
+    color: white;
+}
+.people th:not(:first-child) {
+	border-left: 1px solid white;
+}
+.people tbody tr:nth-of-type(odd) {
+	background-color: #EBECEB;
+}
+.people td {
+	border: 1px solid #4CBEF6;
+}
