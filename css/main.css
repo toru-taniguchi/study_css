@@ -2,4 +2,90 @@
 body {
     color: #2F2D32;
     background: #f9f9f9;
+    font-size: 12px;
+    line-height: 2;
+}
+h1, h2 {
+	font-weight: bold;
+}
+h1, h2, h3 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+h1 {
+	background-color: #42B6F5;
+	padding: 8px;
+	font-size: 20px;
+}
+h2 {
+	background-color: #FECE40;
+	padding-left: 4px;
+}
+h3 {
+	border-bottom: 1px solid #FECE40;
+}
+h3:before {
+	content: "";
+	width: 8px;
+	height: 24px;
+	display: inline-block;
+	background-color: #FECE40;
+}
+.main-container {
+	padding: 12px;
+}
+.app-icon {
+	float: right;
+}
+.list-abilities li:before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #EE2B2A;
+	transform: rotate(-45deg);
+	margin-right: 10px;
+}
+.list-tools li {
+	display: inline-block;
+    margin-right: 12px;
+}
+.list-tools li:first-letter {
+	font-size: 20px;
+	font-weight: bold;
+}
+.people table {
+	border: 1px solid #4CBEF6;
+}
+.people thead {
+	background-color: #4CBEF6;
+    color: white;
+}
+.people th:not(:first-child) {
+	border-left: 1px solid white;
+}
+.people tbody tr:nth-of-type(odd) {
+	background-color: #EBECEB;
+}
+.people td {
+	border: 1px solid #4CBEF6;
+	padding: 4px;
+}
+.corporate-site-link {
+	padding: 8px 24px;
+	background-color: #EB4649;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0px 0px #7E7F7E;
+}
+.return-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #4CBEF6;
+	text-align: center;
+	color: white;
 }
