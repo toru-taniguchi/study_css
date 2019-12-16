@@ -23,3 +23,12 @@ h2 {
 .app-icon {
 	float: right;
 }
+.custom-list-style:before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-color: #EE2B2A;
+	transform: rotate(-45deg);
+	margin-right: 10px;
+}
