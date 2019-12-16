@@ -69,6 +69,7 @@ h3:before {
 }
 .people td {
 	border: 1px solid #4CBEF6;
+	padding: 4px;
 }
 .corporate-site-link {
 	padding: 8px 24px;
