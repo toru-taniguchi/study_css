@@ -32,3 +32,11 @@ h2 {
 	transform: rotate(-45deg);
 	margin-right: 10px;
 }
+.list-tools li {
+	display: inline-block;
+    margin-right: 12px;
+}
+.list-tools li:first-letter {
+	font-size: 20px;
+	font-weight: bold;
+}
