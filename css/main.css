@@ -23,7 +23,7 @@ h2 {
 .app-icon {
 	float: right;
 }
-.custom-list-style:before {
+.list-abilities li:before {
 	content: "";
 	width: 10px;
 	height: 10px;
