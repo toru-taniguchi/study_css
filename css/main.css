@@ -66,3 +66,10 @@ h3:before {
 .people td {
 	border: 1px solid #4CBEF6;
 }
+.corporate-site-link {
+	padding: 8px 24px;
+	background-color: #EB4649;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0px 0px #7E7F7E;
+}
