@@ -73,3 +73,14 @@ h3:before {
 	border-radius: 10px;
 	box-shadow: 1px 1px 0px 0px #7E7F7E;
 }
+.return-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #4CBEF6;
+	text-align: center;
+	color: white;
+}
